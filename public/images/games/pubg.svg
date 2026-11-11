@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pubgBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d2208"/>
+      <stop offset="50%" stop-color="#191305"/>
+      <stop offset="100%" stop-color="#0f0d16"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="24" fill="url(#pubgBg)"/>
+  <!-- Helmet Level 3 Outline Graphic -->
+  <path d="M140 160 C140 100 260 100 260 160 V220 H140 Z" fill="#2b2933" stroke="#f3a011" stroke-width="4"/>
+  <!-- Visor grill -->
+  <rect x="155" y="165" width="90" height="26" rx="4" fill="#14121b" stroke="#f3a011" stroke-width="2"/>
+  <line x1="185" y1="165" x2="185" y2="191" stroke="#f3a011" stroke-width="2"/>
+  <line x1="215" y1="165" x2="215" y2="191" stroke="#f3a011" stroke-width="2"/>
+  <!-- Chinstrap -->
+  <path d="M140 220 L160 260 H240 L260 220" fill="none" stroke="#f3a011" stroke-width="4"/>
+  <text x="200" y="340" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" fill="#f3a011" text-anchor="middle" letter-spacing="1">PUBG MOBILE</text>
+</svg>
+

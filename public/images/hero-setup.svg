@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14121b"/>
+      <stop offset="50%" stop-color="#211e28"/>
+      <stop offset="100%" stop-color="#0f0d16"/>
+    </linearGradient>
+    <linearGradient id="purpleGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f9acff"/>
+      <stop offset="100%" stop-color="#8e1ea2"/>
+    </linearGradient>
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#98e8de"/>
+      <stop offset="100%" stop-color="#318b82"/>
+    </linearGradient>
+    <radialGradient id="ambient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8e1ea2" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#14121b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="300" r="280" fill="url(#ambient)"/>
+  <!-- Decorative Grid Lines -->
+  <g stroke="#36333e" stroke-width="1" opacity="0.4">
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="450" x2="800" y2="450"/>
+    <line x1="200" y1="0" x2="200" y2="600"/>
+    <line x1="400" y1="0" x2="400" y2="600"/>
+    <line x1="600" y1="0" x2="600" y2="600"/>
+  </g>
+  <!-- Cyber Monitor / Esports Setup Illustration -->
+  <g transform="translate(150, 100)">
+    <!-- Monitor Outer Glow -->
+    <rect x="50" y="40" width="400" height="250" rx="16" fill="#1c1a24" stroke="url(#purpleGlow)" stroke-width="2"/>
+    <rect x="70" y="60" width="360" height="210" rx="8" fill="#0f0d16"/>
+    <!-- Screen graphic -->
+    <path d="M120 220 L250 110 L330 180 L400 130" fill="none" stroke="url(#cyanGlow)" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="250" cy="110" r="7" fill="#98e8de"/>
+    <circle cx="330" cy="180" r="7" fill="#f9acff"/>
+    <circle cx="400" cy="130" r="7" fill="#ffd6fe"/>
+    <!-- Gamepad Icon Center -->
+    <g transform="translate(210, 120)">
+      <rect x="0" y="0" width="80" height="48" rx="14" fill="#2b2933" stroke="#f9acff" stroke-width="2"/>
+      <circle cx="24" cy="24" r="8" fill="#8e1ea2"/>
+      <circle cx="56" cy="18" r="4" fill="#98e8de"/>
+      <circle cx="62" cy="28" r="4" fill="#f9acff"/>
+    </g>
+    <!-- Monitor Stand -->
+    <path d="M220 290 L280 290 L265 350 L235 350 Z" fill="#2b2933"/>
+    <rect x="180" y="350" width="140" height="12" rx="6" fill="#36333e" stroke="#504250" stroke-width="1"/>
+    <!-- Keyboard & Mouse -->
+    <rect x="100" y="380" width="220" height="24" rx="6" fill="#1c1a24" stroke="#9d8b9b" stroke-width="1"/>
+    <ellipse cx="360" cy="392" rx="16" ry="22" fill="#2b2933" stroke="url(#cyanGlow)" stroke-width="1.5"/>
+  </g>
+  <text x="400" y="550" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="700" fill="#e6e0ee" text-anchor="middle" letter-spacing="2">PRIBUMAR GAMES GAMING SETUP</text>
+</svg>
+

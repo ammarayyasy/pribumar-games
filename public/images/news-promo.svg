@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="promoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#36103e"/>
+      <stop offset="50%" stop-color="#1c1a24"/>
+      <stop offset="100%" stop-color="#0f0d16"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#promoGrad)"/>
+  <circle cx="480" cy="80" r="120" fill="#8e1ea2" opacity="0.3" filter="blur(40px)"/>
+  <!-- Diamond Shape -->
+  <polygon points="300,70 380,150 300,260 220,150" fill="#8e1ea2" stroke="#f9acff" stroke-width="4"/>
+  <polygon points="300,70 340,150 300,260 260,150" fill="#643187" stroke="#fab3ff" stroke-width="2"/>
+  <text x="300" y="310" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" fill="#f9acff" text-anchor="middle">FLASH SALE &amp; CASHBACK 30%</text>
+  <text x="300" y="335" font-family="'Inter', sans-serif" font-size="12" fill="#d4c1d2" text-anchor="middle">Mobile Legends &amp; Free Fire MAX</text>
+</svg>
+

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tipsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a1220"/>
+      <stop offset="50%" stop-color="#14121b"/>
+      <stop offset="100%" stop-color="#0f0d16"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#tipsGrad)"/>
+  <circle cx="300" cy="150" r="110" fill="#9c2073" opacity="0.25" filter="blur(35px)"/>
+  <!-- Security Shield & Lock -->
+  <g transform="translate(250, 60)">
+    <path d="M50 10 L90 28 V70 C90 110 50 135 50 135 C50 135 10 110 10 70 V28 Z" fill="#211e28" stroke="#98e8de" stroke-width="3"/>
+    <!-- Lock inside -->
+    <rect x="35" y="65" width="30" height="25" rx="4" fill="#98e8de"/>
+    <path d="M41 65 V52 C41 47 45 43 50 43 C55 43 59 47 59 52 V65" fill="none" stroke="#98e8de" stroke-width="3"/>
+    <circle cx="50" cy="76" r="3" fill="#0f0d16"/>
+  </g>
+  <text x="300" y="295" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" fill="#98e8de" text-anchor="middle">ANTI TOP UP ILEGAL &amp; MINUS</text>
+  <text x="300" y="325" font-family="'Inter', sans-serif" font-size="12" fill="#d4c1d2" text-anchor="middle">Edukasi Keamanan Transaksi Gamers</text>
+</svg>
+

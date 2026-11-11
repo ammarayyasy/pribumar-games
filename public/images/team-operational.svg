@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="opBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14121b"/>
+      <stop offset="50%" stop-color="#1c1a24"/>
+      <stop offset="100%" stop-color="#211e28"/>
+    </linearGradient>
+    <linearGradient id="glowPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f9acff"/>
+      <stop offset="100%" stop-color="#8e1ea2"/>
+    </linearGradient>
+    <linearGradient id="glowCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#98e8de"/>
+      <stop offset="100%" stop-color="#318b82"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#opBg)"/>
+  <!-- Network Nodes Graphic -->
+  <g stroke="#36333e" stroke-width="1.5" opacity="0.6">
+    <line x1="200" y1="200" x2="400" y2="150"/>
+    <line x1="400" y1="150" x2="600" y2="220"/>
+    <line x1="400" y1="150" x2="400" y2="350"/>
+    <line x1="200" y1="200" x2="250" y2="400"/>
+    <line x1="600" y1="220" x2="550" y2="420"/>
+    <line x1="250" y1="400" x2="400" y2="350"/>
+    <line x1="400" y1="350" x2="550" y2="420"/>
+  </g>
+  <!-- Node Circles -->
+  <circle cx="200" cy="200" r="14" fill="#643187" stroke="#f9acff" stroke-width="2"/>
+  <circle cx="400" cy="150" r="22" fill="#8e1ea2" stroke="#fab3ff" stroke-width="3"/>
+  <circle cx="600" cy="220" r="14" fill="#318b82" stroke="#98e8de" stroke-width="2"/>
+  <circle cx="250" cy="400" r="12" fill="#2b2933" stroke="#e3b5ff" stroke-width="2"/>
+  <circle cx="400" cy="350" r="18" fill="#1c1a24" stroke="#98e8de" stroke-width="2"/>
+  <circle cx="550" cy="420" r="12" fill="#2b2933" stroke="#f9acff" stroke-width="2"/>
+  <!-- Headset / Support Icon in center -->
+  <g transform="translate(360, 240)">
+    <circle cx="40" cy="40" r="46" fill="#14121b" stroke="url(#glowPurple)" stroke-width="3"/>
+    <path d="M22 42 A18 18 0 0 1 58 42 V54 A4 4 0 0 1 50 54 V46 H30 V54 A4 4 0 0 1 22 54 Z" fill="none" stroke="#98e8de" stroke-width="3"/>
+    <path d="M50 54 A8 8 0 0 1 42 62 H38" fill="none" stroke="#98e8de" stroke-width="3"/>
+  </g>
+  <text x="400" y="520" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="700" fill="#e6e0ee" text-anchor="middle">OPERASIONAL &amp; CUSTOMER CARE 24/7</text>
+  <text x="400" y="550" font-family="'Inter', sans-serif" font-size="14" fill="#d4c1d2" text-anchor="middle">Jonggol Raya - Indonesia</text>
+</svg>
+

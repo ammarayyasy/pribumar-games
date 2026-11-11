@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="valBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#380e15"/>
+      <stop offset="50%" stop-color="#1e070b"/>
+      <stop offset="100%" stop-color="#0f0d16"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="24" fill="url(#valBg)"/>
+  <!-- Valorant V Slash Graphic -->
+  <g transform="translate(130, 110)">
+    <path d="M0 0 L60 0 L110 80 L70 80 Z" fill="#ff4655"/>
+    <path d="M140 0 L100 0 L50 80 L90 80 Z" fill="#fff"/>
+    <polygon points="120,20 140,20 100,80 80,80" fill="#ff4655"/>
+  </g>
+  <text x="200" y="340" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" fill="#ff4655" text-anchor="middle" letter-spacing="1">VALORANT</text>
+</svg>
+

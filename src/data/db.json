@@ -1,0 +1,292 @@
+{
+  "Roles": [
+    {
+      "id": "role-admin",
+      "name": "admin",
+      "description": "Administrator sistem dengan hak akses penuh ke seluruh menu dan data",
+      "permissions": "manage_users,manage_roles,manage_news,view_dashboard",
+      "is_system": true,
+      "created_at": "2026-11-10T04:15:43.474Z"
+    },
+    {
+      "id": "role-user",
+      "name": "user",
+      "description": "Pengguna umum platform Pribumar Games",
+      "permissions": "view_profile,make_order",
+      "is_system": true,
+      "created_at": "2026-11-10T04:15:43.478Z"
+    }
+  ],
+  "Users": [
+    {
+      "id": "user-admin-default",
+      "name": "Owner Pribumar Admin",
+      "email": "admin@gmail.com",
+      "password_hash": "$2b$10$lItciORsJhYwDO3MExAQje.Eu0NsB/iD9K1PVOLbhbbIuDKgsqXSK",
+      "role_id": "role-admin",
+      "status": "active",
+      "created_at": "2026-11-10T04:15:43.478Z",
+      "updated_at": "2026-11-10T04:15:43.478Z"
+    },
+    {
+      "name": "User Biasa",
+      "email": "user@gmail.com",
+      "password_hash": "$2b$10$ciVSqHoGlkEjJtiICX9MceB7MTO2X0LG9UMx59Be/16Gy.qyNCUc6",
+      "role_id": "role-user",
+      "status": "active",
+      "id": "user-1794284230324-6r1d",
+      "created_at": "2026-11-10T04:17:10.324Z",
+      "updated_at": "2026-11-10T04:17:10.324Z"
+    },
+    {
+      "name": "Tester Gamers",
+      "email": "test1794284320849@gmail.com",
+      "password_hash": "$2b$10$BnfATXl1LyNNfzImGDXV7u6eWTGFAM9U.oRmby5I1Pd.GP/qxJoSi",
+      "role_id": "role-user",
+      "status": "active",
+      "id": "user-1794284321037-jujt",
+      "created_at": "2026-11-10T04:18:41.037Z",
+      "updated_at": "2026-11-10T04:18:41.037Z"
+    },
+    {
+      "name": "Tester Gamers",
+      "email": "test1794284408809@gmail.com",
+      "password_hash": "$2b$10$2YzSJFPgIFSPACyacEiqPuZIqFRfZq68mg3LoUCSG0/X2Z3eUV47C",
+      "role_id": "role-user",
+      "status": "active",
+      "id": "user-1794284408931-yofx",
+      "created_at": "2026-11-10T04:20:08.931Z",
+      "updated_at": "2026-11-10T04:20:08.931Z"
+    },
+    {
+      "name": "Gamer Jonggol",
+      "email": "gamer.jonggol@gmail.com",
+      "password_hash": "$2b$10$427MfMZQZHeInohncMxkpei3igYUa27gN6.6BvxbQaB2/0TTkECYe",
+      "role_id": "role-user",
+      "status": "active",
+      "id": "user-1794360083624-tdlv",
+      "created_at": "2026-11-11T01:21:23.624Z",
+      "updated_at": "2026-11-11T01:21:23.624Z"
+    },
+    {
+      "name": "Pengguna Lain",
+      "email": "other.user@gmail.com",
+      "password_hash": "$2b$10$AuxSiXmq2op71MqPWp6JSe/OtcBFP1HV487xCxisRucVDm7sZo8ZS",
+      "role_id": "role-user",
+      "status": "active",
+      "id": "user-1794360149261-xhts",
+      "created_at": "2026-11-11T01:22:29.261Z",
+      "updated_at": "2026-11-11T01:22:29.261Z"
+    }
+  ],
+  "News": [
+    {
+      "title": "Coba iaebdisubdfsiudf ",
+      "slug": "coba-iaebdisubdfsiudf-8697",
+      "excerpt": "owidf isdfni usdhfi usdhf iusdhf niusdfh uisdhf iusdhf ius",
+      "content": "osidfj iosdjf iosdjf oisdjfio jsdoifj siodjf siodjfi osjdf ",
+      "thumbnail_path": "/uploads/upload-1794301538608-d1yzde.png",
+      "status": "published",
+      "author_id": "user-admin-default",
+      "id": "news-1794301568697",
+      "created_at": "2026-11-10T09:06:08.697Z",
+      "updated_at": "2026-11-10T09:06:08.697Z"
+    },
+    {
+      "title": "Coba iaebdisubdfsiudf ",
+      "slug": "coba-iaebdisubdfsiudf-7171",
+      "excerpt": "owidf isdfni usdhfi usdhf iusdhf niusdfh uisdhf iusdhf ius",
+      "content": "osidfj iosdjf iosdjf oisdjfio jsdoifj siodjf siodjfi osjdf ",
+      "thumbnail_path": "/uploads/upload-1794301538608-d1yzde.png",
+      "status": "published",
+      "author_id": "user-admin-default",
+      "id": "news-1794301567171",
+      "created_at": "2026-11-10T09:06:07.171Z",
+      "updated_at": "2026-11-10T09:06:07.171Z"
+    },
+    {
+      "title": "Promo ulang tahun pribumar games",
+      "slug": "promo-ulang-tahun-pribumar-games-3080",
+      "excerpt": "askdm alksdn laknsd klasnd lkansd",
+      "content": "lkasndmlkasn dlkansdkl naslkdn alksnd klansdk lansdlkn alksdn ",
+      "thumbnail_path": "/uploads/upload-1794295162860-3y4egg.jpg",
+      "status": "published",
+      "author_id": "user-admin-default",
+      "id": "news-1794295173080",
+      "created_at": "2026-11-10T07:19:33.080Z",
+      "updated_at": "2026-11-10T07:19:33.080Z"
+    },
+    {
+      "title": "Promo ulang tahun pribumar games",
+      "slug": "promo-ulang-tahun-pribumar-games-1221",
+      "excerpt": "askdm alksdn laknsd klasnd lkansd",
+      "content": "lkasndmlkasn dlkansdkl naslkdn alksnd klansdk lansdlkn alksdn ",
+      "thumbnail_path": "/uploads/upload-1794295162860-3y4egg.jpg",
+      "status": "published",
+      "author_id": "user-admin-default",
+      "id": "news-1794295171221",
+      "created_at": "2026-11-10T07:19:31.221Z",
+      "updated_at": "2026-11-10T07:19:31.221Z"
+    },
+    {
+      "title": "Tes Berita",
+      "slug": "tes-berita-5373",
+      "excerpt": "sdfoi jsdiofj iosdjf",
+      "content": " owfejio djfios jdiofj is",
+      "thumbnail_path": "/uploads/upload-1794293378924-mjosqz.png",
+      "status": "published",
+      "author_id": "user-admin-default",
+      "id": "news-1794293395373",
+      "created_at": "2026-11-10T06:49:55.373Z",
+      "updated_at": "2026-11-10T06:49:55.373Z"
+    },
+    {
+      "title": "Tes Berita",
+      "slug": "tes-berita-5447",
+      "excerpt": "sdfoi jsdiofj iosdjf",
+      "content": " owfejio djfios jdiofj is",
+      "thumbnail_path": "/uploads/upload-1794293378924-mjosqz.png",
+      "status": "published",
+      "author_id": "user-admin-default",
+      "id": "news-1794293395447",
+      "created_at": "2026-11-10T06:49:55.447Z",
+      "updated_at": "2026-11-10T06:49:55.447Z"
+    },
+    {
+      "title": "Tes Berita",
+      "slug": "tes-berita-1424",
+      "excerpt": "sdfoi jsdiofj iosdjf",
+      "content": " owfejio djfios jdiofj is",
+      "thumbnail_path": "/uploads/upload-1794293378924-mjosqz.png",
+      "status": "published",
+      "author_id": "user-admin-default",
+      "id": "news-1794293391424",
+      "created_at": "2026-11-10T06:49:51.424Z",
+      "updated_at": "2026-11-10T06:49:51.424Z"
+    },
+    {
+      "title": "Tes Berita",
+      "slug": "tes-berita-1412",
+      "excerpt": "sdfoi jsdiofj iosdjf",
+      "content": " owfejio djfios jdiofj is",
+      "thumbnail_path": "/uploads/upload-1794293378924-mjosqz.png",
+      "status": "published",
+      "author_id": "user-admin-default",
+      "id": "news-1794293391412",
+      "created_at": "2026-11-10T06:49:51.412Z",
+      "updated_at": "2026-11-10T06:49:51.412Z"
+    },
+    {
+      "title": "Tes Berita",
+      "slug": "tes-berita-8478",
+      "excerpt": "sdfoi jsdiofj iosdjf",
+      "content": " owfejio djfios jdiofj is",
+      "thumbnail_path": "/uploads/upload-1794293378924-mjosqz.png",
+      "status": "published",
+      "author_id": "user-admin-default",
+      "id": "news-1794293388478",
+      "created_at": "2026-11-10T06:49:48.478Z",
+      "updated_at": "2026-11-10T06:49:48.478Z"
+    },
+    {
+      "title": "Uji Berita Baru Live",
+      "slug": "uji-berita-baru-live-9255",
+      "excerpt": "Ringkasan uji berita live dari dashboard admin",
+      "content": "Konten berita langsung dari dashboard admin Pribumar Games",
+      "thumbnail_path": "/images/news-promo.svg",
+      "status": "published",
+      "author_id": "user-admin-default",
+      "id": "news-1794284409256",
+      "created_at": "2026-11-10T04:20:09.256Z",
+      "updated_at": "2026-11-10T04:20:09.256Z"
+    },
+    {
+      "title": "Uji Berita Baru Live",
+      "slug": "uji-berita-baru-live-1089",
+      "excerpt": "Ringkasan uji berita live dari dashboard admin",
+      "content": "Konten berita langsung dari dashboard admin Pribumar Games",
+      "thumbnail_path": "/images/news-promo.svg",
+      "status": "published",
+      "author_id": "user-admin-default",
+      "id": "news-1794284321090",
+      "created_at": "2026-11-10T04:18:41.090Z",
+      "updated_at": "2026-11-10T04:18:41.090Z"
+    },
+    {
+      "id": "news-1",
+      "title": "Promo Gebyar Push Rank: Cashback 30% Diamond MLBB & Free Fire",
+      "slug": "promo-gebyar-push-rank",
+      "excerpt": "Nikmati potongan spesial menyambut reset season baru dengan metode pembayaran QRIS & E-Wallet tanpa kuota batas transaksi.",
+      "content": "Pribumar Games kembali menghadirkan promo spektakuler untuk seluruh pejuang rank Mobile Legends dan Free Fire se-Jonggol Raya dan seluruh Indonesia. Selama periode event, dapatkan cashback langsung hingga 30% menggunakan metode pembayaran QRIS instan.",
+      "thumbnail_path": "/images/news-promo.svg",
+      "status": "published",
+      "author_id": "user-admin-default",
+      "created_at": "2026-11-10T04:15:43.478Z",
+      "updated_at": "2026-11-10T04:15:43.478Z"
+    },
+    {
+      "id": "news-2",
+      "title": "Pribumar Games Resmi Jadi Official Top-Up Partner Turnamen Komunitas",
+      "slug": "kerjasama-turnamen-nasional",
+      "excerpt": "Dukungan penuh kami terhadap regenerasi atlet esports tanah air melalui sponsorship turnamen berskala nasional dan regional.",
+      "content": "Sebagai wujud nyata komitmen mendukung ekosistem esports dari akar rumput, Pribumar Games resmi menjadi sponsor utama dan penyedia voucher resmi untuk rangkaian kejuaraan komunitas di berbagai kota.",
+      "thumbnail_path": "/images/news-partner.svg",
+      "status": "published",
+      "author_id": "user-admin-default",
+      "created_at": "2026-11-10T04:15:43.478Z",
+      "updated_at": "2026-11-10T04:15:43.478Z"
+    },
+    {
+      "id": "news-3",
+      "title": "Tips Menghindari Penipuan Top Up Ilegal & Akun Terkena Diamond Merah",
+      "slug": "edukasi-hindari-topup-ilegal",
+      "excerpt": "Kenali ciri-ciri toko voucher bodong dan cara aman bertransaksi hanya lewat platform resmi bergaransi agar akun tetap terlindungi.",
+      "content": "Banyak pemain tergiur harga murah tidak masuk akal yang berujung pada minus balance atau banned permanen. Di Pribumar Games, seluruh produk bersumber dari jalur distribusi legal dengan invoice terverifikasi.",
+      "thumbnail_path": "/images/news-tips.svg",
+      "status": "published",
+      "author_id": "user-admin-default",
+      "created_at": "2026-11-10T04:15:43.478Z",
+      "updated_at": "2026-11-10T04:15:43.478Z"
+    }
+  ],
+  "Orders": [
+    {
+      "id": "PG-469696-618",
+      "user_id": "user-admin-default",
+      "user_name": "Owner Pribumar Admin",
+      "user_email": "admin@gmail.com",
+      "game_id": "valorant",
+      "game_name": "Valorant Points (VP)",
+      "item_id": "val-1000",
+      "item_name": "1000 Points",
+      "price": 100000,
+      "account_id": "Dixon Myazz#yeahh",
+      "zone_id": "",
+      "payment_method": "QRIS (Semua E-Wallet & M-Banking)",
+      "whatsapp": "081399808859",
+      "status": "dikonfirmasi",
+      "notes": "",
+      "created_at": "2026-11-11T01:44:29.696Z",
+      "updated_at": "2026-11-11T01:47:04.728Z"
+    },
+    {
+      "id": "PG-098480-968",
+      "user_id": "user-1794360083624-tdlv",
+      "user_name": "Gamer Jonggol",
+      "user_email": "gamer.jonggol@gmail.com",
+      "game_id": "mobile-legends",
+      "game_name": "Mobile Legends: Bang Bang",
+      "item_id": "ml-86",
+      "item_name": "86 Diamonds",
+      "price": 21000,
+      "account_id": "19283746",
+      "zone_id": "2045",
+      "payment_method": "QRIS (GoPay Merchant)",
+      "whatsapp": "081234567890",
+      "status": "dikonfirmasi",
+      "notes": "Mohon proses cepat min, mau push rank!",
+      "created_at": "2026-11-11T01:21:38.480Z",
+      "updated_at": "2026-11-11T01:22:15.576Z"
+    }
+  ]
+}
