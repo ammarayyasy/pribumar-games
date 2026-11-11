@@ -47,7 +47,7 @@ Posisi saat ini: **Step 4 - Deploy ke Vercel & Maintenance**
 - **Pengujian:** Seluruh QA test lolos 100%: login user, pembuatan tiket top up, pengambilan daftar pesanan user, verifikasi detail QRIS, deteksi pesanan masuk di dashboard admin, konfirmasi pembayaran oleh admin, pembaruan status real-time, dan pencegahan akses tidak sah antar pengguna.
 
 ## Cara Menjalankan & Menguji
-1. Buka `http://localhost:3000/login` dan masuk dengan akun user atau klik "Isi Otomatis" untuk admin.
+1. Buka `http://localhost:3000/login` dan masuk dengan akun admin (`admin@gmail.com`) atau daftar akun baru (fitur "Isi Otomatis" telah dihapus untuk keamanan production).
 2. Buka katalog game di Beranda atau langsung ke `http://localhost:3000/topup/mobile-legends`.
 3. Masukkan ID Game, pilih nominal (cth: 86 Diamonds), masukkan nomor WhatsApp, lalu klik **"Beli Sekarang"**.
 4. Sistem membuka halaman pembayaran `http://localhost:3000/payment/[orderId]` dengan gambar barcode QRIS resmi dan instruksi bayar.

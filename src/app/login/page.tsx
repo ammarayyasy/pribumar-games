@@ -23,13 +23,6 @@ export default function LoginPage() {
   const [regEmail, setRegEmail] = useState("");
   const [regPassword, setRegPassword] = useState("");
 
-  const fillAdminCredentials = () => {
-    setTab("login");
-    setLoginEmail("admin@gmail.com");
-    setLoginPassword("123456");
-    setErrorMsg("");
-  };
-
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     setErrorMsg("");
@@ -164,23 +157,6 @@ export default function LoginPage() {
           </button>
         </div>
 
-        {/* Quick Admin Demo Helper Box */}
-        {tab === "login" && (
-          <div className="mb-5 p-3 rounded-xl bg-secondary-container/20 border border-secondary/40 flex items-center justify-between gap-2 text-xs">
-            <div className="flex items-center gap-2 text-on-surface">
-              <ShieldCheck className="w-4 h-4 text-secondary shrink-0" />
-              <span>Admin default: <strong>admin@gmail.com</strong></span>
-            </div>
-            <button
-              type="button"
-              onClick={fillAdminCredentials}
-              className="px-2.5 py-1 rounded-md bg-secondary-fixed text-on-secondary-fixed font-bold hover:bg-secondary-fixed-dim transition-colors text-[11px]"
-            >
-              Isi Otomatis
-            </button>
-          </div>
-        )}
-
         {/* Feedback Messages */}
         {errorMsg && (
           <div className="mb-4 p-3 rounded-xl bg-error-container/40 border border-error/50 text-error text-xs flex items-center gap-2">
@@ -210,7 +186,7 @@ export default function LoginPage() {
                   required
                   value={loginEmail}
                   onChange={(e) => setLoginEmail(e.target.value)}
-                  placeholder="admin@gmail.com"
+                  placeholder="nama@email.com"
                   className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-surface-container-high border border-outline-variant/30 text-on-surface text-sm focus:outline-none focus:ring-2 focus:ring-primary shadow-inner"
                 />
               </div>
